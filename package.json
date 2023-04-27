@@ -1,0 +1,22 @@
+{
+  "name": "halerinodejs",
+  "version": "1.0.0",
+  "description": "sex",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Roe Appelqvist",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "formidable": "^2.1.1",
+    "gridfs-stream": "^1.1.1",
+    "mongodb": "^5.2.0",
+    "mongoose": "^7.0.4",
+    "multer": "^1.4.5-lts.1",
+    "multer-gridfs-storage": "^5.0.2",
+    "sharp": "^0.32.0"
+  }
+}
