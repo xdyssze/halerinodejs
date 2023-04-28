@@ -1,10 +1,10 @@
-const upload = require('./app').up;
-const client = require('./app').client;
-const textUpload = require('./app').textUpload;
+const upload = require('./index').up;
+const client = require('./index').client;
+const textUpload = require('./index').textUpload;
 
-const getJSON = require('./app').get;
-const getImg = require('./app').getImg;
-var grd = require('./app').grd;
+const getJSON = require('./index').get;
+const getImg = require('./index').getImg;
+var grd = require('./index').grd;
 
 module.exports = function(app) {
 
